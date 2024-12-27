@@ -74,7 +74,7 @@ sudo apt-get update
 ```
 ```bash
 sudo apt-get install docker.io -y
-sudo usermod -aG docker ubuntu && newgrp docker
+sudo usermod -aG docker ubuntu && newgrp docker #Adds the user ubuntu to the docker group and refreshes group membership without logging out
 ```
 #
 - <b id="Jenkins">Install and configure Jenkins (Master machine)</b>
